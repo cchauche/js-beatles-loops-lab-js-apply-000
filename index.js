@@ -15,5 +15,10 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(num) {
-  
+  let fanChant = [];
+  while ( num > 0 ) {
+    fanChant.push('I love the Beatles!');
+    num --;
+  }
+  return fanChant;
 }

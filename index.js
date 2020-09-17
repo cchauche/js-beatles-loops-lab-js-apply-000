@@ -18,7 +18,7 @@ function iLoveTheBeatles(num) {
   let fanChant = [];
   do  {
     fanChant.push('I love the Beatles!');
-    num --;
-  } while ( num > 0 );
+    num ++;
+  } while ( num < 15 );
   return fanChant;
 }
